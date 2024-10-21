@@ -10,6 +10,10 @@ const getPalindrome = (inputText) =>{
 }
 
 getPalindrome("Malayalam");
-getPalindrome("mal yalam");
+getPalindrome("test");
+getPalindrome("mala yalam");
 getPalindrome("_eye");
 getPalindrome("A man, a plan, a canal. Panama");
+getPalindrome("not a palindrome");
+getPalindrome("0_0 (: /-\ :) 0-0");
+getPalindrome("<.>>())");
