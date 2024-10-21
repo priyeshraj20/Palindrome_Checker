@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    background-color: #0a0a24;
+}
+h1,.input-text,.palindrome-defenition,button,p{
+    color: whitesmoke;
+}
+
+.input-text{
+    font-size: 22px;
+    
+    margin: 15px 15px 15px 15px;
+   
+}
+
+input{
+   
+    padding: 20px 100px 20px 20px ;
+}
+
+#input-div{
+    border: 2px solid rgb(216, 234, 112);
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 25px 25px 25px 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+button{
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 50px;
+    background-color: rgba(240, 233, 247, 0);
+    border: 2px solid rgb(216, 234, 112);
+    padding: 10px;
+    font-size: 18px;
+}
+
+#palindrome-defenition-div{
+border: 2px solid rgb(216, 234, 112);
+padding: 25px 25px 25px 25px;
+border-radius: 5px 5px 5px 5px;
+margin: 25px 25px 25px 25px;
+}
