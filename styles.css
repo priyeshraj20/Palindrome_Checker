@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     background-color: #0a0a24;
 }
-h1,.input-text,.palindrome-defenition,button,p{
+h1,.input-text,.palindrome-defenition,button,p,label{
     color: whitesmoke;
 }
 
@@ -10,7 +10,7 @@ h1,.input-text,.palindrome-defenition,button,p{
     font-size: 22px;
     
     margin: 15px 15px 15px 15px;
-   
+    color: whitesmoke;
 }
 
 input{
@@ -36,6 +36,10 @@ button{
     border: 2px solid rgb(216, 234, 112);
     padding: 10px;
     font-size: 18px;
+}
+
+.hidden {
+  display: none;
 }
 
 #palindrome-defenition-div{
